@@ -65,4 +65,4 @@ From Fig 2,  *xb, yb, zb* are blocking outputs and *x, y, z* are non-blocking ou
 > Hence, we can conclude that when modelling purely combinational circuits blocking is preferred, while modeling sequential circuits non-blocking is preferred.
 
 ##### Reference
-1. [Cummings, Clifford E. "Verilog Nonblocking Assignments With Delays, Myths & Mysteries." Synopsys User Group Meeting (SNUG), Boston. 2002.](http://www.sunburst-design.com/papers/CummingsSNUG2002Boston_NBAwithDelays_rev1_3.pdf)
+1. [Cummings, Clifford E. "Verilog Nonblocking Assignments With Delays, Myths & Mysteries." Synopsys User Group Meeting (SNUG), Boston. 2002.](http://www.sunburst-design.com/papers/CummingsSNUG2000SJ_NBA_rev1_2.pdf)

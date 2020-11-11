@@ -30,9 +30,9 @@ always@(posedge clk)
                 yb = 0;
                 zb = 0;
             end else begin           
-                xb = a | b;          //xb = 1
-                yb = xb ^ c;         //yb = 0
-                zb = yb;             //zb = 0
+                xb = a | b;          
+                yb = xb ^ c;         
+                zb = yb;             
             end
         end
 ```

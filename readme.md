@@ -1,6 +1,6 @@
 # Blocking and Non-Blocking
 
----
+
 Let us model a simple design that is given in figure 1 in Verilog. There are many ways to optimally model the design but here we will learn the difference between blocking and non-blocking assignments in Verilog.
 
 ###  Boolean Equations

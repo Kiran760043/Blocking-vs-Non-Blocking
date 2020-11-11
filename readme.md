@@ -62,7 +62,7 @@ In the above example, LHS is not updated  until it evaluates all the RHS express
 
 From Fig 2,  *xb, yb, zb* are blocking outputs and *x, y, z* are non-blocking outputs. We are going to concentrate from 20ns to 80ns to understand the concept. Input a, b, c change at  20ns simultaneously, all the blocking outputs are evaluated and updated immediately. Whereas, the non-blocking outputs require three clock cycles to produce the correct output. At 20ns,  expression for *x* evaluates *a* and *b* with current inputs; expression for *y* evaluates with current input of *c* and previous output of *x* because *x* is not yet updated with the new value. Similarly, *z* is evaluated with previous value of *y*.
 
-> Hence, we can conclude that when model purely combinational circuits blocking is preferred, while modeling sequential circuits non-blocking is preferred.
+> Hence, we can conclude that when modelling purely combinational circuits blocking is preferred, while modeling sequential circuits non-blocking is preferred.
 
 ##### Reference
 1. [Cummings, Clifford E. "Verilog Nonblocking Assignments With Delays, Myths & Mysteries." Synopsys User Group Meeting (SNUG), Boston. 2002.](http://www.sunburst-design.com/papers/CummingsSNUG2002Boston_NBAwithDelays_rev1_3.pdf)
